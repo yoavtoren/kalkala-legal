@@ -1,4 +1,4 @@
-# Kalkala · כלכלה: legal pages
+# Kalkala · קלכלה: legal pages
 
 Privacy policy, terms of use and support page for the Kalkala app, served by GitHub Pages:
 
