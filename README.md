@@ -1,6 +1,6 @@
-# Kalkala · קלכלה: legal pages
+# Kalpay Plus · קלפיי פלוס: legal pages
 
-Privacy policy, terms of use and support page for the Kalkala app, served by GitHub Pages:
+Privacy policy, terms of use and support page for the Kalpay Plus app, served by GitHub Pages:
 
 - https://yoavtoren.github.io/kalkala-legal/
 - https://yoavtoren.github.io/kalkala-legal/privacy.html
