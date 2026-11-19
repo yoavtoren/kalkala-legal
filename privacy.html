@@ -11,11 +11,12 @@
 <main>
   <p><a href="./">← קלפיי פלוס</a></p>
   <h1>מדיניות פרטיות</h1>
-  <p class="updated">עודכנה לאחרונה: 12 בנובמבר 2026 · <a href="#english">English</a></p>
+  <p class="updated">עודכנה לאחרונה: 19 בנובמבר 2026 · <a href="#english">English</a></p>
 
   <div class="summary">
-    <strong>בקצרה:</strong> קלפיי פלוס לא אוספת עליכם מידע, ואין לנו שרת. כל מה שאתם מזינים (תנועות, סכומים, קטגוריות, תקציב וקבוצות) נשמר במכשיר שלכם ומסונכרן ל־iCloud הפרטי שלכם, שרק אתם נכנסים אליו.
-    אפשר להשתמש באפליקציה בלי חשבון, להיכנס עם Sign in with Apple, או להירשם עם אימייל וסיסמה שנשמרים אצל Google Firebase רק כדי שתוכלו להתחבר. אין פרסומות, אין מעקב ואין כלי אנליטיקה. המידע הכספי לא נשלח אלינו ולא לאף גורם אחר, חוץ מחברי קבוצה שאתם בעצמכם מזמינים.
+    <strong>בקצרה:</strong> כל מה שאתם מזינים לקלפיי פלוס (תנועות, סכומים, קטגוריות, תקציב וקבוצות) נשמר במכשיר שלכם ומסונכרן ל־iCloud הפרטי שלכם, שרק אתם נכנסים אליו. המידע הכספי לא נשלח אלינו ולא לאף גורם אחר, חוץ מחברי קבוצה שאתם בעצמכם מזמינים, ואין לנו שרת משלנו.
+    אפשר להשתמש באפליקציה בלי חשבון, להיכנס עם Sign in with Apple, או להירשם עם אימייל וסיסמה שנשמרים אצל Google Firebase רק כדי שתוכלו להתחבר.
+    מגרסה 1.1 האפליקציה מודדת באופן אנונימי אילו מסכים נפתחים (בלי שום מידע כספי), ומציגה מדי פעם פרסומות. את המדידה אפשר לכבות, ואת הפרסומות אפשר להסיר בקנייה חד־פעמית. הפרטים ב<a href="#measuring">סעיף 3</a>.
   </div>
 
   <nav class="toc">
@@ -23,6 +24,7 @@
     <ol>
       <li><a href="#who">מי אנחנו</a></li>
       <li><a href="#stored">איזה מידע נשמר, ואיפה</a></li>
+      <li><a href="#measuring">מדידת שימוש ופרסומות</a></li>
       <li><a href="#not">מה אנחנו לא אוספים</a></li>
       <li><a href="#backup">גיבוי של המכשיר</a></li>
       <li><a href="#stores">App Store ו־Google Play</a></li>
@@ -64,70 +66,80 @@
   <p><strong>שפה.</strong> השפה שבחרתם לאפליקציה (עברית, אנגלית, רוסית או ערבית) נשמרת במכשיר.</p>
   <p><strong>מדינה, מטבע וחופשות.</strong> המדינה שבה אתם גרים והמטבע שלכם נשמרים במכשיר, כדי לזהות מותגים ולהציג סכומים. חופשות שסימנתם (מדינה, תאריכים ושער המרה) נשמרות במכשיר ומסונכרנות ל־iCloud הפרטי שלכם כמו שאר הנתונים. שערי ההמרה הם הערכה מובנית באפליקציה או מה שהזנתם; האפליקציה לא פונה לשום שירות ברשת כדי לקבל אותם.</p>
 
-  <h2 id="not">3. מה אנחנו לא אוספים</h2>
+  <h2 id="measuring">3. מדידת שימוש ופרסומות (מגרסה 1.1)</h2>
+  <p>שני הדברים שבסעיף הזה קיימים רק מגרסה 1.1 של האפליקציה. באף אחד מהם לא עובר מידע כספי: לא סכומים, ולא שמות של בתי עסק, קטגוריות, קבוצות או אנשים.</p>
+  <p><strong>מדידת שימוש.</strong> כדי להבין מה עובד באפליקציה ומה מבלבל, היא מדווחת אילו מסכים נפתחו ואילו פעולות נעשו (למשל "נוספה הוצאה" או "יובא קובץ"), בלי התוכן שלהן. לכל דיווח מצורפים גרסת האפליקציה, דגם המכשיר וגרסת מערכת ההפעלה, השפה, המדינה והמטבע שבחרתם, סוג הכניסה (Apple, אימייל או בלי חשבון) והאם הפרסומות הוסרו. הדיווחים נשמרים אצל PostHog (PostHog Inc.), בשרתים באיחוד האירופי, תחת מזהה אקראי שנוצר במכשיר. המזהה לא מחובר לחשבון, לאימייל, ל־Apple ID או למזהה הפרסום, ולא נבנה ממנו פרופיל אישי. כמו בכל תקשורת באינטרנט, PostHog רואה את כתובת ה־IP שממנה הגיע הדיווח; האפליקציה מבקשת שלא לגזור ממנה מיקום, והחשבון שלנו מוגדר כך שהכתובת לא נשמרת. אין הקלטה של המסך ואין תיעוד של מה שאתם מקלידים. PostHog מעבדת את המידע כספק שירות שלנו, לפי <a href="https://posthog.com/privacy">מדיניות הפרטיות שלה</a>.</p>
+  <p>באיחוד האירופי, בבריטניה ובשווייץ המדידה מתחילה רק אחרי שהסכמתם. בשאר העולם היא פועלת כברירת מחדל. בכל מקום אפשר לכבות אותה בהגדרות ← "מדידה ופרסומות": מה שחיכה להישלח נמחק, והמזהה האקראי נמחק איתו.</p>
+  <p><strong>פרסומות.</strong> האפליקציה חינמית, ומדי פעם מופיעה בה פרסומת על מסך מלא: רק אחרי שסיימתם פעולה, לכל היותר כמה ביום, ולא בימים הראשונים שלכם עם האפליקציה. הפרסומות מוגשות דרך Unity LevelPlay של Unity Technologies ודרך רשתות הפרסום ironSource Ads ו־Unity Ads. כדי להציג פרסומת ולמדוד אותה, הרשתות מקבלות ישירות מהמכשיר נתונים טכניים: דגם המכשיר וגרסת מערכת ההפעלה, כתובת IP (וממנה מיקום משוער), שפה, מזהה של האפליקציה, ואיך הגבתם לפרסומת. את מזהה הפרסום של המכשיר (IDFA) הן מקבלות רק אם אישרתם לאייפון "לאפשר לאפליקציה לעקוב"; בלי האישור הזה הפרסומות כלליות. באיחוד האירופי, בבריטניה ובשווייץ פרסומות מותאמות אישית מוצגות רק אם הסכמתם לכך באפליקציה. את הבחירה אפשר לשנות בכל רגע בהגדרות ← "מדידה ופרסומות". הרשתות מעבדות את המידע לפי <a href="https://unity.com/legal/privacy-policy">מדיניות הפרטיות של Unity</a>.</p>
+  <p>לרשתות הפרסום אין שום גישה למידע שהזנתם לאפליקציה. מי שקונה "בלי פרסומות" (קנייה חד־פעמית דרך App Store, או קוד הטבה של App Store) לא רואה פרסומות, ורכיב הפרסום לא מופעל אצלו.</p>
+
+  <h2 id="not">4. מה אנחנו לא אוספים</h2>
   <ul>
-    <li>אין לנו שרת ואין לנו עותק של המידע שלכם.</li>
+    <li>אין לנו שרת משלנו ואין לנו עותק של המידע שהזנתם.</li>
     <li>אין חיבור לחשבון הבנק או לכרטיסי אשראי, ואין גישה לפרטי התחברות שלהם.</li>
     <li>אין לנו מאגר משתמשים משלנו. בכניסה עם Apple, מה ש־Apple מעבירה נשמר במכשיר; בכניסה עם אימייל, רק האימייל והסיסמה המוצפנת נשמרים אצל Google Firebase, כמתואר בסעיף 2.</li>
     <li>אין מיקום, אנשי קשר, מצלמה או מיקרופון. לגלריה ניגשים רק כשבוחרים תמונה לקבוצה, ורק לתמונה שבחרתם.</li>
-    <li>אין פרסומות, אין מזהה פרסום ואין מעקב בין אפליקציות או אתרים.</li>
-    <li>אין כלי אנליטיקה ואין דיווח קריסות מטעמנו.</li>
+    <li>אנחנו עצמנו לא אוספים מזהה פרסום ולא עוקבים אחריכם בין אפליקציות או אתרים. מה שרשתות הפרסום מקבלות מגרסה 1.1 מתואר בסעיף 3.</li>
+    <li>אין דיווח קריסות מטעמנו, אין הקלטה של המסך ואין תיעוד של מה שאתם מקלידים. מדידת השימוש האנונימית מתוארת בסעיף 3.</li>
     <li>אין עוגיות (cookies). גם האתר הזה לא משתמש בהן.</li>
   </ul>
 
-  <h2 id="backup">4. גיבוי של המכשיר</h2>
+  <h2 id="backup">5. גיבוי של המכשיר</h2>
   <p>
     אם הפעלתם גיבוי של המכשיר (למשל גיבוי iCloud ב־iPhone או גיבוי Google ב־Android), מערכת ההפעלה עשויה לכלול בו את המידע של האפליקציה, כמו של כל אפליקציה אחרת.
     הגיבוי הזה מנוהל על ידי Apple או Google, בחשבון שלכם ולפי מדיניות הפרטיות שלהן. אין לנו גישה אליו.
   </p>
 
-  <h2 id="stores">5. App Store ו־Google Play</h2>
+  <h2 id="stores">6. App Store ו־Google Play</h2>
   <p>
     כשאתם מורידים את האפליקציה, Apple או Google מעבדות מידע על ההורדה לפי מדיניות הפרטיות שלהן.
     הן עשויות להעביר לנו נתונים סטטיסטיים מצטברים, כמו מספר הורדות, ודוחות קריסה אם בחרתם לשתף אותם עם מפתחים בהגדרות המכשיר.
     הנתונים האלה לא מזהים אתכם ולא כוללים את המידע שהזנתם לאפליקציה.
   </p>
 
-  <h2 id="sharing">6. שיתוף ומכירה של מידע</h2>
-  <p>אנחנו לא מוכרים, משכירים או משתפים מידע אישי, ואין לנו מידע אישי עליכם. המידע עובר רק בין המכשירים שלכם ולחברי הקבוצות שאתם הזמנתם, דרך iCloud.</p>
+  <h2 id="sharing">7. שיתוף ומכירה של מידע</h2>
+  <p>אנחנו לא מוכרים ולא משכירים מידע אישי. המידע שהזנתם עובר רק בין המכשירים שלכם ולחברי הקבוצות שאתם הזמנתם, דרך iCloud.</p>
+  <p>מגרסה 1.1, נתונים טכניים על המכשיר מגיעים לרשתות הפרסום כדי להציג פרסומות, כמתואר בסעיף 3. חלק מחוקי הפרטיות, למשל בקליפורניה, רואים בכך "שיתוף" לצורכי פרסום. אפשר לבטל אותו במתג "פרסומות מותאמות אישית" שבהגדרות ← "מדידה ופרסומות", או להסיר את הפרסומות לגמרי.</p>
 
-  <h2 id="security">7. אבטחה</h2>
+  <h2 id="security">8. אבטחה</h2>
   <p>
     המידע מוגן בבידוד שמערכת ההפעלה מספקת לכל אפליקציה ובהצפנת המכשיר.
     כל מי שמחזיק את המכשיר כשהוא לא נעול יכול לפתוח את האפליקציה ולראות את המידע, ולכן מומלץ לנעול את המכשיר בקוד, ב־Face ID או בטביעת אצבע.
   </p>
 
-  <h2 id="retention">8. שמירה ומחיקה</h2>
+  <h2 id="retention">9. שמירה ומחיקה</h2>
   <ul>
     <li>המידע נשמר במכשיר וב־iCloud שלכם עד שתמחקו אותו.</li>
     <li>בהגדרות ← "מחיקת החשבון וכל הנתונים" נמחק כל המידע מהמכשיר ומ־iCloud, והקבוצות שפתחתם מפסיקות להיות משותפות.</li>
     <li>אם נרשמתם עם אימייל, אותה פעולה מוחקת גם את החשבון ב־Firebase. אם המכשיר לא היה מחובר לאינטרנט באותו רגע, אפשר לכתוב לנו ונמחק אותו.</li>
     <li>אפשר גם לנתק את ההתחברות עם Apple בהגדרות הטלפון (Apple ID ← כניסה עם Apple).</li>
     <li>אין לנו עותק של המידע, ולכן לא נוכל לשחזר אותו אם הוא נמחק.</li>
+    <li>דיווחי מדידת השימוש (סעיף 3) נשמרים אצל PostHog לפי תקופת השמירה של החשבון שלנו שם. הם לא מחוברים אליכם, ולכן אי אפשר לאתר דיווחים של אדם מסוים. כיבוי המדידה או מחיקת החשבון מוחקים את המזהה האקראי מהמכשיר, ומאותו רגע שום דיווח חדש לא נקשר לישנים.</li>
   </ul>
 
-  <h2 id="rights">9. הזכויות שלכם</h2>
+  <h2 id="rights">10. הזכויות שלכם</h2>
   <p>
     לפי חוק הגנת הפרטיות, התשמ"א-1981, וכשהן חלות עליכם גם לפי תקנת הגנת המידע הכללית של האיחוד האירופי (GDPR) וחוקי פרטיות נוספים, יש לכם זכות לעיין במידע שמוחזק עליכם, לתקן אותו ולבקש למחוק אותו.
     המידע הכספי כולו נמצא בשליטה שלכם במכשיר: אפשר לצפות בו, לשנות אותו ולמחוק אותו ישירות באפליקציה. אם נרשמתם עם אימייל, אפשר גם לבקש מאיתנו עותק של מה שנשמר ב־Firebase (האימייל ומועדי ההתחברות) או את מחיקתו.
-    לכל שאלה אפשר לפנות אלינו בכתובת שבסעיף 12.
+    מדידת השימוש ופרסומות מותאמות אישית נשענות, היכן שהחוק דורש זאת, על ההסכמה שלכם, ואפשר לחזור ממנה בכל רגע בהגדרות ← "מדידה ופרסומות".
+    לכל שאלה אפשר לפנות אלינו בכתובת שבסעיף 13.
   </p>
 
-  <h2 id="children">10. ילדים</h2>
-  <p>האפליקציה לא מיועדת לילדים מתחת לגיל 13 ולא אוספת מידע עליהם ביודעין. מעבר לאימייל של מי שבוחר להירשם איתו, היא לא אוספת מידע מאף משתמש.</p>
+  <h2 id="children">11. ילדים</h2>
+  <p>האפליקציה לא מיועדת לילדים מתחת לגיל 13 ולא אוספת מידע עליהם ביודעין. מעבר לאימייל של מי שבוחר להירשם איתו ולמה שמתואר בסעיף 3, היא לא אוספת מידע מאף משתמש. הפרסומות אינן מכוונות לילדים.</p>
 
-  <h2 id="changes">11. שינויים במדיניות</h2>
+  <h2 id="changes">12. שינויים במדיניות</h2>
   <p>
     אם גרסה עתידית תוסיף תכונה ששולחת מידע למקום חדש, למשל חיבור ישיר לבנק, נעדכן את המדיניות הזו לפני שהתכונה תשוחרר.
     נפרט מה נשלח, לאן ולמה, ונבקש את הסכמתכם כשהחוק דורש זאת. תאריך העדכון האחרון מופיע בראש העמוד.
   </p>
 
-  <h2 id="contact">12. יצירת קשר</h2>
+  <h2 id="contact">13. יצירת קשר</h2>
   <p>שאלות על המדיניות או על הפרטיות שלכם: <a href="mailto:yoavtoren@gmail.com">yoavtoren@gmail.com</a></p>
 
   <section class="english" id="english" lang="en" dir="ltr">
     <h2>Privacy Policy (English summary)</h2>
-    <p class="updated">Last updated: November 12, 2026. The Hebrew version above is the binding one.</p>
+    <p class="updated">Last updated: November 19, 2026. The Hebrew version above is the binding one.</p>
     <p>
       Kalpay Plus is developed and operated by Yoav Toren, an independent developer. We run no servers of our own and collect no financial data.
       What you enter (transactions, fixed charges, categories, budgets, shared groups) is stored in a local database on your device
@@ -145,7 +157,9 @@
       <li>Widgets read a summary from a private App Group container shared with the app on the same device only.</li>
       <li>Reminders are local notifications scheduled by the device; iCloud's silent pushes only tell the app to sync and carry no data. Face ID unlock is handled by iOS; the app never sees biometric data.</li>
       <li>No user database of our own: Apple's sign-in data stays on the device, and email accounts are held only by Firebase as described above.</li>
-      <li>No ads, no advertising identifier, no tracking, no analytics, no crash reporting of our own, no cookies.</li>
+      <li>Usage measuring (from version 1.1): the app reports which screens are opened and a few actions (such as "expense added"), never their contents: no amounts, merchants, categories, groups or people. Each report carries the app version, device model and OS version, language, the country and currency you chose, the kind of sign-in and whether ads were removed. It is stored by PostHog on servers in the European Union under a random identifier created on the device, which is not connected to your account, email, Apple ID or advertising identifier. The app asks PostHog not to derive a location from the IP address, and our project is set not to store it. In the EU, the UK and Switzerland measuring starts only after you agree; elsewhere it is on by default. Anywhere, Settings → "Measuring and ads" turns it off and deletes the identifier.</li>
+      <li>Ads (from version 1.1): the app is free and now and then shows a full-screen ad, only after you finish an action, a few a day at most, and not in your first days. Ads are served through Unity LevelPlay (Unity Technologies) and the ironSource Ads and Unity Ads networks, which receive technical data directly from the device: device model and OS version, IP address (and an approximate location from it), language, the app's identifier and how you responded to the ad. They receive the device's advertising identifier (IDFA) only if you allow tracking in the iPhone's own prompt. In the EU, the UK and Switzerland personalized ads are shown only if you agree in the app. The networks have no access to anything you entered in the app. Buying "No ads" (a one-time purchase, or an App Store offer code) removes the ads, and the ad component is then not started.</li>
+      <li>No advertising identifier collected by us, no cross-app tracking by us, no crash reporting of our own, no screen recording, no cookies.</li>
       <li>Settings → "Delete account and all data" erases everything from the device and iCloud, and deletes an email account from Firebase.</li>
     </ul>
     <p>Contact: <a href="mailto:yoavtoren@gmail.com">yoavtoren@gmail.com</a></p>
